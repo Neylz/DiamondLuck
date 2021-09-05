@@ -1,6 +1,6 @@
 {
     "values": [
         "dl:core/tick",
-        "dl:core/gui/distancefromplayer"
+        "dl:core/gui/minecartupdating"
     ]
 }
