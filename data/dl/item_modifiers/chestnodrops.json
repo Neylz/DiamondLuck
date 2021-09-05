@@ -1,0 +1,6 @@
+[
+	{
+		"function": "minecraft:set_loot_table",
+		"name": "minecraft:blocks/acacia_log"
+	}
+]

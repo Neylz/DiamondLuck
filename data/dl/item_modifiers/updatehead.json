@@ -1,0 +1,72 @@
+[
+	{
+		"function": "minecraft:fill_player_head",
+		"entity": "this"
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"selector": "@s",
+			"color": "yellow",
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			[
+				[
+					{
+						"text": "Diamond Luck : ",
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"score": {
+							"name": "@s",
+							"objective": "dl_IntDL"
+						},
+						"color": "aqua",
+						"italic": false
+					},
+					{
+						"text": ".",
+						"color": "aqua",
+						"italic": false
+					},
+					{
+						"score": {
+							"name": "@s",
+							"objective": "dl_FloatDL"
+						},
+						"color": "aqua",
+						"italic": false
+					},
+					{
+						"text": "%",
+						"color": "aqua",
+						"italic": false
+					}
+				]
+			],
+			[
+				{
+					"text": "Ore mined : ",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"score": {
+						"name": "@s",
+						"objective": "dl_AllDOreMined"
+					},
+					"color": "aqua",
+					"italic": false
+				}
+			]
+		],
+		"replace": true
+	}
+]

@@ -1,0 +1,6 @@
+{
+    "values": [
+        "dl:core/tick",
+        "dl:core/gui/distancefromplayer"
+    ]
+}
