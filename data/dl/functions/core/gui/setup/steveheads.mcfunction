@@ -16,3 +16,5 @@ item replace entity @s container.14 with player_head{display:{Name:'{"text":"no 
 item replace entity @s container.15 with player_head{display:{Name:'{"text":"no more player found","color":"gray","bold": true,"italic": false}'}}
 item replace entity @s container.16 with player_head{display:{Name:'{"text":"no more player found","color":"gray","bold": true,"italic": false}'}}
 item replace entity @s container.17 with player_head{display:{Name:'{"text":"no more player found","color":"gray","bold": true,"italic": false}'}}
+
+item replace entity @s container.22 with barrier{display:{Name:'{"text":"Close Menu","color":"red","italic":false}'},dl_GUI_Close:true}

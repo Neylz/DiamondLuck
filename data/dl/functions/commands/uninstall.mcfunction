@@ -19,3 +19,5 @@ scoreboard objectives remove dl_IntDL100
 scoreboard objectives remove dl_FloatDL
 
 scoreboard objectives remove dl_CopyDL
+
+scoreboard objectives remove dl_closeClick
