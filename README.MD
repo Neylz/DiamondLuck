@@ -22,8 +22,7 @@ To setup, place the zip file into the `datapacks` folder; Can be found in the `w
 
 # Usage
 
-To have the GUI type `/function dl:commands/seeluck`.  Button to close and destroy the minecart coming soon.
-In the meantime, to destroy the minecart, move away from it, it will disappear without leaving any items on the ground. 
+To have the GUI type `/function dl:commands/seeluck`.  Click on close to destroy the interface
 
 # Uninstall
 
