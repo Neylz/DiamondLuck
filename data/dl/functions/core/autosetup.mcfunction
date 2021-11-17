@@ -37,4 +37,4 @@ scoreboard objectives add dl_closeClick dummy
 scoreboard objectives add dl_headTake dummy
 scoreboard objectives add dl_headOnSlot dummy
 
-tellraw @a ["",{"text":"\n"},{"text":"=============","color":"dark_gray"},{"text":" \u0020DiamondLuck \u0020","color":"gold"},{"text":"=============","color":"dark_gray"},{"text":"\n\n"},{"text":"DiamondLuck running\nDatapack by Neylz\nVersion : 0.1","color":"gray"},{"text":"\n\n"},{"text":"=======================================","color":"dark_gray"}]
+tellraw @a ["",{"text":"=============","color":"dark_gray"},{"text":"  ","color":"dark_purple"},{"text":"DiamondLuck","color":"gold","hoverEvent":{"action":"show_text","contents":["",{"text":"Datapack Made by ","color":"dark_gray"},{"text":"Neylz","color":"gray"},{"text":"\n"},{"text":"Version ","color":"dark_gray"},{"text":"1.0","color":"gray"},{"text":"\n"},{"text":"Compatibility ","color":"dark_gray"},{"text":"1.18.x","color":"gray"},{"text":"\n"},{"text":"Is currently ","color":"dark_gray"},{"text":"installed","color":"green"}]}},{"text":"  =============","color":"dark_gray"},{"text":"\n "}]
