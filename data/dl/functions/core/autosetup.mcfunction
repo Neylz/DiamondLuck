@@ -33,4 +33,8 @@ scoreboard objectives add dl_CopyDL dummy
 #Close button detection
 scoreboard objectives add dl_closeClick dummy
 
+#tp heads button detection
+scoreboard objectives add dl_headTake dummy
+scoreboard objectives add dl_headOnSlot dummy
+
 tellraw @a ["",{"text":"\n"},{"text":"=============","color":"dark_gray"},{"text":" \u0020DiamondLuck \u0020","color":"gold"},{"text":"=============","color":"dark_gray"},{"text":"\n\n"},{"text":"DiamondLuck running\nDatapack by Neylz\nVersion : 0.1","color":"gray"},{"text":"\n\n"},{"text":"=======================================","color":"dark_gray"}]
