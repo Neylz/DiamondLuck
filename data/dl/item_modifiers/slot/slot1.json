@@ -1,0 +1,10 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{dl_gui_head:true}"
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{slot:1}"
+  }
+]
