@@ -1,4 +1,4 @@
-execute as @e[tag=dl_SeeLuckChest] at @s unless entity @a[distance=0..5,tag=dl_Admin] run function dl:core/gui/killgui
+execute as @e[tag=dl_SeeLuckChest] at @s unless entity @a[distance=0..1,tag=dl_Admin] run function dl:core/gui/killgui
 
 
 #check for close button
@@ -14,3 +14,4 @@ item replace entity @e[tag=dl_SeeLuckChest] container.22 with barrier{display:{N
 # check for head taken
 # detect wich head have been taken
 
+#check for close button
