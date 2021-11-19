@@ -23,3 +23,5 @@ scoreboard objectives remove dl_CopyDL
 scoreboard objectives remove dl_closeClick
 scoreboard objectives remove dl_headTake
 scoreboard objectives remove dl_headOnSlot
+
+team remove dl_SeeLuckChest
