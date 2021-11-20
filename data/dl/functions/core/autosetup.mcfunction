@@ -34,8 +34,12 @@ scoreboard objectives add dl_CopyDL dummy
 scoreboard objectives add dl_closeClick dummy
 
 #tp heads button detection
+scoreboard objectives add dl_successTake dummy
 scoreboard objectives add dl_headTake dummy
 scoreboard objectives add dl_headOnSlot dummy
+
+#tp heads get coordinates
+scoreboard objectives add dl_getCoords dummy
 
 #team for no collisions
 team add dl_SeeLuckChest

@@ -14,4 +14,11 @@ item replace entity @e[tag=dl_SeeLuckChest] container.22 with barrier{display:{N
 # check for head taken
 # detect wich head have been taken
 
-#check for close button
+#reset
+scoreboard players reset * dl_successTake
+#scoreboard players reset * dl_headTake
+
+
+execute as @a store success score @s dl_successTake run clear @s player_head{dl_gui:true,slot:0}
+execute as @a[scores={dl_successTake=1..}] run scoreboard players set @s dl_headTake 0
+execute as @a[scores={dl_successTake=1..}] run function dl:core/gui/admc.tp
