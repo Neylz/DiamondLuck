@@ -45,4 +45,7 @@ scoreboard objectives add dl_getCoords dummy
 team add dl_SeeLuckChest
 team modify dl_SeeLuckChest collisionRule never
 
+#trigger
+scoreboard objectives add DiamondLuck trigger
+
 tellraw @a ["",{"text":"=============","color":"dark_gray"},{"text":"  ","color":"dark_purple"},{"text":"DiamondLuck","color":"gold","hoverEvent":{"action":"show_text","contents":["",{"text":"Datapack Made by ","color":"dark_gray"},{"text":"Neylz","color":"gray"},{"text":"\n"},{"text":"Version ","color":"dark_gray"},{"text":"1.0","color":"gray"},{"text":"\n"},{"text":"Compatibility ","color":"dark_gray"},{"text":"1.18.x","color":"gray"},{"text":"\n"},{"text":"Is currently ","color":"dark_gray"},{"text":"installed","color":"green"}]}},{"text":"  =============","color":"dark_gray"}]

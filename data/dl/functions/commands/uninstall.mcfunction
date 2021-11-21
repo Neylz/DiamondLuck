@@ -28,5 +28,6 @@ scoreboard objectives remove dl_headOnSlot
 
 scoreboard objectives remove dl_getCoords
 
+scoreboard objectives remove DiamondLuck
 
 team remove dl_SeeLuckChest

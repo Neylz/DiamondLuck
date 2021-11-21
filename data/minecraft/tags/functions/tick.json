@@ -1,6 +1,7 @@
 {
     "values": [
         "dl:core/tick",
-        "dl:core/gui/minecartupdating"
+        "dl:core/gui/minecartupdating",
+        "dl:core/trigger"
     ]
 }
