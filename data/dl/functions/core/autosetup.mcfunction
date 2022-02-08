@@ -15,6 +15,8 @@ scoreboard objectives add dl_AllDOreMined dummy
 
 #scoreboards for stone
 scoreboard objectives add dl_StoneMined minecraft.mined:minecraft.stone
+scoreboard objectives add dl_DslateMined minecraft.mined:minecraft.deepslate
+scoreboard objectives add dl_AllStoneMined dummy
 
 #scoreboards for DiamondLuck
 scoreboard objectives add dl_OppDLuck dummy
