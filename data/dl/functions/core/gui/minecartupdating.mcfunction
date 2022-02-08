@@ -1,4 +1,4 @@
-execute as @e[tag=dl_SeeLuckChest] at @s unless entity @a[distance=0..1,tag=dl_Admin] run function dl:core/gui/killgui
+execute as @e[tag=dl_SeeLuckChest] at @s unless entity @a[distance=0..1,tag=dl_OP] run function dl:core/gui/killgui
 
 
 #check for close button
